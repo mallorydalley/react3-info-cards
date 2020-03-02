@@ -1,0 +1,90 @@
+body {
+    background-color: rgb(36, 35, 35);
+    font-family: sans-serif;
+}
+
+header {
+    height: 75px;
+    width: 100%;
+    background-color: #5ed4ff;
+    font-weight: bold;
+    font-family: sans-serif;
+    display: flex;
+    font-size: 20px;
+    padding-left: 75px;
+    align-items: center;
+}
+
+.card-background {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.white-card {
+    height: 375px;
+    min-width: 600px;
+    background-color: white;
+    margin-top: 75px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 35px;
+}
+
+.name-id {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+}
+
+.name {
+    align-items: flex-start;
+    text-decoration: underline #5ed4ff;
+    padding-top: 10px;
+    font-size: 28px;
+}
+
+.info{
+    height: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.info-p{
+    font-weight: bold;
+    margin-right: 4px;
+}
+
+.movie-list{
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.movie{
+   height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-bottom: 50px; 
+}
+
+.button {
+    display: flex;
+    justify-content: space-between;
+    min-width: 600px;
+    margin-top: 5px;
+}
+
+button {
+    color: white;
+    background-color: rgb(36, 35, 35);
+    border: none;
+    font-size: 16px;
+}
+
